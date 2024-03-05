@@ -4,6 +4,8 @@
 const userTripKm = parseInt(prompt('Ciao, dimmi quanti chilometri devi percorrere!!'))
 console.log(userTripKm);
 // 2 - Chiedere all'utente l'età del passeggiero
+const userAge = parseInt(prompt('Ciao, dimmi quanti anni hai!!'))
+console.log(userAge);
 // 3 - Calcolare il prezzo del biglietto
     // 3a- Calcolo del prezzo in base ai chilometri inseriti dall'utente
     // 3b- Calcolo di un eventuale sconto del 20% ai minorenni
