@@ -21,5 +21,11 @@ console.log(userAge);
     }
     // console.log(userDiscount40);
     // 3d- Calcolo del prezzo finale in base alle variabili indicate
-    
+    let finalPrice = 'Il prezzo del tuo bilgietto è di €' + userPriceKM;
+    if (userAge < 18){
+        finalPrice = 'Il prezzo del tuo bilgietto è di €' + userDiscount20;
+    }else if(userAge > 65){
+        finalPrice = 'Il prezzo del tuo bilgietto è di €' + userDiscount40;
+    }
+    console.log(finalPrice);
 // 4 - Stampare a schermo il risultato per l'utente
