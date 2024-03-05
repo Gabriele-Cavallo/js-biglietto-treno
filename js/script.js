@@ -29,3 +29,4 @@ console.log(userAge);
     }
     console.log(finalPrice);
 // 4 - Stampare a schermo il risultato per l'utente
+document.getElementById('price').innerHTML = finalPrice;
