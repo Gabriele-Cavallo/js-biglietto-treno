@@ -1,6 +1,8 @@
 // TASK:Calcolare il prezzo del bigliettto
 
 // 1 - Chiedere all'utente il numero di chilometri che intende percorrere
+const userTripKm = parseInt(prompt('Ciao, dimmi quanti chilometri devi percorrere!!'))
+console.log(userTripKm);
 // 2 - Chiedere all'utente l'età del passeggiero
 // 3 - Calcolare il prezzo del biglietto
     // 3a- Calcolo del prezzo in base ai chilometri inseriti dall'utente
