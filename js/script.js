@@ -25,4 +25,6 @@ const userAge = parseInt(prompt('Ciao, dimmi quanti anni hai!!'))
     }
     finalPrice = finalPrice.toFixed(2);
 // 4 - Stampare a schermo il risultato per l'utente
+document.getElementById('tripKM').innerHTML = `Questi sono i chilometri che hai impostato: ${userTripKm}km`;
+document.getElementById('age').innerHTML = `Questa è l'età che hai impostato: ${userAge} anni`;
 document.getElementById('price').innerHTML = `${userMessage} ${finalPrice}`;
