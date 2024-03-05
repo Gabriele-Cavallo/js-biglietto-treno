@@ -12,9 +12,14 @@ console.log(userAge);
     console.log(userPriceKM);
     // 3b- Calcolo di un eventuale sconto del 20% ai minorenni
     if (userAge < 18){
-        userDiscount20 = userPriceKM - (userPriceKM * 20 / 100)
+        userDiscount20 = userPriceKM - (userPriceKM * 20 / 100);
     }
-    console.log(userDiscount20);
+    // console.log(userDiscount20);
     // 3c- Calcolo di un eventuale sconto del 40% agli over 65
+    if (userAge > 65){
+        userDiscount40 = userPriceKM - (userPriceKM * 40 / 100);
+    }
+    // console.log(userDiscount40);
     // 3d- Calcolo del prezzo finale in base alle variabili indicate
+    
 // 4 - Stampare a schermo il risultato per l'utente
